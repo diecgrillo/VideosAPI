@@ -1,0 +1,22 @@
+{
+  "name": "videos-api",
+  "version": "1.0.0",
+  "description": "This API provides video recommendations organized by categories",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diecgrillo/VideosAPI.git"
+  },
+  "keywords": [
+    "videos"
+  ],
+  "author": "Diego Grillo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diecgrillo/VideosAPI/issues"
+  },
+  "homepage": "https://github.com/diecgrillo/VideosAPI#readme"
+}
