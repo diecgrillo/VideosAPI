@@ -11,6 +11,8 @@ var users = require('./routes/users');
 
 var mongoURL = process.env.OPENSHIFT_MONGODB_DB_URL || process.env.MONGO_URL;
 
+console.log(mongoURL);
+
 if (mongoURL == null){
 	mongoURL = 'mongodb://127.0.0.1:27017/video-api-db';
 }
